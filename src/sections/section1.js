@@ -10,7 +10,7 @@ const FirstSection = () => {
 	const handleScroll = () => {
 		const spans = document.querySelectorAll('.absolute span');
 		spans.forEach((span, i) => {
-			if (window.pageYOffset > i * 13) {
+			if (window.pageYOffset > i * 10) {
 				span.style.opacity = 1;
 			} else {
 				span.style.opacity = 0;
