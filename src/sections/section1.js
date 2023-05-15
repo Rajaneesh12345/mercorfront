@@ -18,10 +18,10 @@ const FirstSection = () => {
 		});
 	};
 	return (
-		<section className="textreveal_section__Dw9vK  ">
+		<section className="textreveal_section ">
 			<div className="container">
-				<div className="textreveal_wrapper__fuEcC">
-					<div className="textreveal_sticky__NBmkY">
+				<div className="textreveal_wrapper">
+					<div className="textreveal_sticky">
 						<div className="textreveal_inner__Kddvp">
 							<div className="relative">
 								<p className="text-white title-lead font-semibold leading-none absolute">
@@ -89,7 +89,7 @@ const FirstSection = () => {
 							</div>
 						</div>
 					</div>
-					<div className="textreveal_text__9qSpD" />
+					<div className="textreveal_text" />
 				</div>
 			</div>
 		</section>

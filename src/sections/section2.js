@@ -159,9 +159,9 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 3 ? 1 : 0,
-								translate: 'none',
+								translate: scroll === 3 ? 1 : 0,
 								rotate: 'none',
-								scale: 'none',
+								scale: scroll === 3 ? 1 : 0.8,
 								transform:
 									scroll === 3
 										? 'translate(0px, 0px)'
