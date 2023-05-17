@@ -83,13 +83,12 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 1 ? 1 : 0,
-								translate: 'none',
-								rotate: 'none',
-								scale: 'none',
+								// translate: 'none',
+								// rotate: 'none',
+								// scale: 'none',
 								transform:
-									scroll === 1
-										? 'translate(0px, 0px)'
-										: 'translate(0px, 250px)',
+                                `translate(0px, ${scroll === 1 ? 0 : 250}px) rotate(0deg) scale(${scroll === 1 ? 1 : 0.8})`,
+                                transition: 'opacity 0.5s, transform 0.5s'
 							}}
 						>
 							<div className="box">
@@ -118,13 +117,12 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 2 ? 1 : 0,
-								translate: 'none',
-								rotate: 'none',
-								scale: 'none',
+								// translate: 'none',
+								// rotate: 'none',
+								// scale: 'none',
 								transform:
-									scroll === 2
-										? 'translate(0px, 0px)'
-										: 'translate(0px, 250px)',
+                                `translate(0px, ${scroll === 2 ? 0 : 250}px) rotate(0deg) scale(${scroll === 2 ? 1 : 0.8})`,
+                                transition: 'opacity 0.5s, transform 0.5s'
 							}}
 						>
 							<div className="box">
@@ -159,13 +157,11 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 3 ? 1 : 0,
-								translate: scroll === 3 ? 1 : 0,
-								rotate: 'none',
-								scale: scroll === 3 ? 1 : 0.8,
+								// rotate: 'none',
+								// scale: scroll === 3 ? 1 : 0.8,
 								transform:
-									scroll === 3
-										? 'translate(0px, 0px)'
-										: 'translate(0px, 250px)',
+                                `translate(0px, ${scroll === 3 ? 0 : 250}px) rotate(0deg) scale(${scroll === 3 ? 1 : 0.8})`,
+                                transition: 'opacity 0.5s, transform 0.5s scale 0.5s'
 							}}
 						>
 							<div className="box">
