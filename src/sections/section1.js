@@ -22,7 +22,7 @@ const FirstSection = () => {
 			<div className="container">
 				<div className="textreveal_wrapper">
 					<div className="textreveal_sticky">
-						<div className="textreveal_inner">
+						<div className="textreveal_inner__Kddvp">
 							<div className="relative">
 								<p className="text-white title-lead font-semibold leading-none absolute">
 									<span style={{ opacity: 0 }}>In</span>{' '}
