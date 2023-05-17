@@ -44,8 +44,8 @@ const SecondSection = () => {
 
 	return (
 		<div className="container mt-20">
-			<div className="stacked_wrapper__PZJ2V">
-				<div class="stacked_head__r8uz7">
+			<div className="stacked_wrapper">
+				<div class="stacked_head">
 					<div>
 						<div>
 							<div class="flex items-center gap-[5px] mb-4">
@@ -74,7 +74,7 @@ const SecondSection = () => {
 					</div>
 				</div>
 
-				<div className="stacked_stack__aeW9h">
+				<div className="stacked_stack">
 					<div
 						className="sticky top-0 left-0 flex items-center h-screen"
 						ref={sectionRef}
