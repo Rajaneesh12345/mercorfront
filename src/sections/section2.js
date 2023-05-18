@@ -83,11 +83,8 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 1 ? 1 : 0,
-								// translate: 'none',
-								// rotate: 'none',
-								// scale: 'none',
 								transform:
-                                `translate(0px, ${scroll === 1 ? 0 : 250}px) rotate(0deg) scale(${scroll === 1 ? 1 : 0.8})`,
+                                `translate(0px, ${scroll === 1 ? 0 : 250}px) scale(${scroll === 1 ? 1 : 0.8})`,
                                 transition: 'opacity 0.5s, transform 0.5s'
 							}}
 						>
@@ -117,11 +114,8 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 2 ? 1 : 0,
-								// translate: 'none',
-								// rotate: 'none',
-								// scale: 'none',
 								transform:
-                                `translate(0px, ${scroll === 2 ? 0 : 250}px) rotate(0deg) scale(${scroll === 2 ? 1 : 0.8})`,
+                                `translate(0px, ${scroll === 2 ? 0 : 250}px) scale(${scroll === 2 ? 1 : 0.8})`,
                                 transition: 'opacity 0.5s, transform 0.5s'
 							}}
 						>
@@ -157,11 +151,9 @@ const SecondSection = () => {
 							className="item absolute h-full top-0 left-0 w-full flex items-center pr-16"
 							style={{
 								opacity: scroll === 3 ? 1 : 0,
-								// rotate: 'none',
-								// scale: scroll === 3 ? 1 : 0.8,
 								transform:
-                                `translate(0px, ${scroll === 3 ? 0 : 250}px) rotate(0deg) scale(${scroll === 3 ? 1 : 0.8})`,
-                                transition: 'opacity 0.5s, transform 0.5s scale 0.5s'
+                                `translate(0px, ${scroll === 3 ? 0 : 250}px) scale(${scroll === 3 ? 1 : 0.8})`,
+                                transition: 'opacity 0.5s, transform 0.5s'
 							}}
 						>
 							<div className="box">
